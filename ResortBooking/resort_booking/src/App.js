@@ -1,9 +1,13 @@
 import './App.css';
+import Home from './Components/Lending/Home';
+import Footer from './Components/Public/Footer';
+import Header from './Components/Public/Header';
 
 function App() {
   return (
     <div>
-      <h1>Welcome to our website Resortle!</h1>
+      <Header />
+      <Footer />
     </div>
   );
 }
