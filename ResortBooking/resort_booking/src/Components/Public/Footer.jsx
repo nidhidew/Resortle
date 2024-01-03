@@ -6,7 +6,7 @@ const Footer = () => {
     //   <h1><center>Footer</center></h1>
     // </div>
     <div class="mt-10">
-        <h1><center>Footer</center></h1>
+        <h1><center>© 2024 Resortle. All rights reserved.</center></h1>
     </div>
   )
 }
