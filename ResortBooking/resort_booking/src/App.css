@@ -20,3 +20,222 @@
     height: 3rem;
 }
 
+.bg_section_1{
+    background-image: url('./Images/pexels-colon-freld-2373201.jpg');
+    background-size: cover; 
+    width: auto;
+    height: 800px !important;
+}
+.bg_section_2{
+    background-color: #979497;
+    height: 30rem;
+}
+.container_1 {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 15%;
+  margin-left: 37%;
+  margin-right: 16%;
+  }
+.header_container_1{
+    font-size: 50px !important;
+    font-weight: bold !important;
+}
+.header_container_2{
+    font-size: 50px !important;
+    font-weight: bold !important;
+}  
+.header_container_3{
+    font-size: 50px !important;
+    font-weight: bold !important;
+}
+.underline_container_1{
+  border-bottom: 4px solid white;
+  margin-left: 30%;
+  margin-right: 26%;
+}
+.underline_container_2{
+    border-bottom: 4px solid black;
+    margin-left: 46%;
+    margin-right: 46%;
+  }
+.underline_container_3{
+    border-bottom: 4px solid black;
+    margin-left: 46%;
+    margin-right: 46%;
+}
+.bg_section_3{
+
+}
+
+.rooms_btn{
+    background-color: #442b3e;
+}
+
+.container_2{
+    padding-top: 3rem;
+  padding-left: 15rem;
+  margin-right: 92rem;
+}
+.container_3{
+  padding-left: 40rem;
+  margin-top: -9rem;
+  margin-right: 70rem;
+}
+.container_4{
+  padding-left: 65rem;
+  margin-top: -10.5rem;
+  margin-right: 43rem;
+}
+.container_5{
+  padding-left: 92rem;
+  margin-top: -10rem;
+  margin-right: 5rem;
+}
+.img_6{
+  background-image: url('./Images/singleRoom.jpg');
+    background-size: cover; 
+    width: 18rem ;
+    height: 10rem;
+    margin-bottom: 20%;
+}
+.img_7{
+  background-image: url('./Images/doubleRoom.jpg');
+    background-size: cover; 
+    width: 18rem ;
+    height: 10rem;
+    margin-bottom: 20%;
+}
+.img_8{
+  background-image: url('./Images/tripleRoom.jpg');
+    background-size: cover; 
+    width: 18rem ;
+    height: 10rem;
+    margin-bottom: 20%;
+}
+.img_9{
+  background-image: url('./Images/deluxeRoom.jpg');
+    background-size: cover; 
+    width: 18rem ;
+    height: 10rem;
+    margin-bottom: 20%;
+}
+.img_10{
+  background-image: url('./Images/executiveRoom.jpg');
+    background-size: cover; 
+    width: 18rem ;
+    height: 10rem;
+    margin-bottom: 20%;
+}
+.img_11{
+  background-image: url('./Images/suiteRoom.jpg');
+    background-size: cover; 
+    width: 18rem ;
+    height: 10rem;
+    margin-bottom: 20%;
+}
+.img_12{
+  background-image: url('./Images/resortRoom.jpg');
+    background-size: cover; 
+    width: 18rem ;
+    height: 10rem;
+    margin-bottom: 20%;
+}
+.img_13{
+  background-image: url('./Images/twinRoom.jpg');
+    background-size: cover; 
+    width: 18rem ;
+    height: 10rem;
+    margin-bottom: 20%;
+}
+.container_6{
+  width: 20%;
+  padding-left: 2.5%;
+  background-color: #979497;
+  margin-left: 5%;
+  box-shadow: 0 5px 8px #000;
+}
+.container_7{
+  width: 20%;
+    padding-left: 2.5%;
+    background-color: #979497;
+    margin-left: 28%;
+    margin-top: -16.8%;
+    padding-bottom: 1.5%;
+    box-shadow: 0 5px 8px #000;
+}
+.container_8{
+  width: 20%;
+    padding-left: 2.5%;
+    padding-bottom: 1.5%;
+    background-color: #979497;
+    margin-left: 51%;
+    margin-top: -17%;
+    box-shadow: 0 5px 8px #000;
+}
+.container_9{
+  width: 20%;
+    padding-left: 2.5%;
+    padding-bottom: 1.5%;
+    background-color: #979497;
+    margin-left: 74%;
+    margin-top: -17%;
+    box-shadow: 0 5px 8px #000;
+}
+.container_10{
+  width: 20%;
+  padding-left: 2.5%;
+  background-color: #979497;
+  margin-left: 5%;
+  box-shadow: 0 5px 8px #000;
+  margin-top: 4%;
+  padding-bottom: 1%;
+}
+.container_11{
+  width: 20%;
+  padding-left: 2.5%;
+  background-color: #979497;
+  margin-left: 28%;
+  box-shadow: 0 5px 8px #000;
+  margin-top: -16.5%;
+  padding-bottom: 1%;
+}
+.container_12{
+  width: 20%;
+  padding-left: 2.5%;
+  background-color: #979497;
+  margin-left: 51%;
+  box-shadow: 0 5px 8px #000;
+  margin-top: -16.5%;
+  padding-bottom: 1%;
+}
+.container_13{
+  width: 20%;
+  padding-left: 2.5%;
+  background-color: #979497;
+  margin-left: 74.5%;
+  box-shadow: 0 5px 8px #000;
+  margin-top: -16.5%;
+  padding-bottom: 1%;
+}
+.img_text{
+  color: white;
+  font-size: revert;
+  text-align: center;
+}
+.c2_text{
+  color: white;
+  font-size: revert;
+  font-weight: revert;
+}
+.homeicon{
+  margin-left: 10%;
+  font-size: 40px;
+  color: white;
+}
