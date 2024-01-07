@@ -1,10 +1,15 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 import "../../App.css";
 import { MdLocalDining } from "react-icons/md";
 import { TbCampfire } from "react-icons/tb";
 import { FaBus } from "react-icons/fa";
 import { FaCocktail } from "react-icons/fa";
 const Home = () => {
+  const roomnav = useNavigate();
+  const handleRoomButton = () => {
+    roomnav('/rooms');
+  }
   return (
     <div>
       {/* <h1><center>Home</center></h1> */}
@@ -17,7 +22,7 @@ const Home = () => {
             <p className="underline_container_1"></p><br></br>
             <p>Deluxe rooms starting at ₹800</p>
             <br></br>
-            <button className="rooms_btn text-white font-bold py-2 px-4 rounded">
+            <button className="rooms_btn text-white font-bold py-2 px-4 rounded" onClick={handleRoomButton}>
               Our Rooms
             </button>
           </div>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../Images/logo(3).svg';
 import { FaRegUser } from "react-icons/fa6";
 
@@ -8,7 +9,6 @@ const Header = () => {
     //   <h1><center>Header</center></h1>
       
     // </div>
-
     <nav class="bg-white-800">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
@@ -32,8 +32,8 @@ const Header = () => {
         </div>
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4 mt-2">
-            <a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-nav font-medium" aria-current="page">Home</a>
-            <a href="#" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-nav font-medium">Rooms</a>
+            <a class="bg-gray-900 text-white rounded-md px-3 py-2 text-nav font-medium"><Link to="/">Home</Link></a>
+            <a class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-nav font-medium"><Link to="/rooms">Rooms</Link></a>
           </div>
         </div>
       </div>
@@ -65,8 +65,8 @@ const Header = () => {
 
   <div class="sm:hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pb-3 pt-2">
-      <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Rooms</a>
+      {/* <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
+      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Rooms</a> */}
     </div>
   </div>
 </nav>
