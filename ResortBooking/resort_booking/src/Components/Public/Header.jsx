@@ -32,7 +32,7 @@ const Header = () => {
         </div>
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4 mt-2">
-            <a class="bg-gray-900 text-white rounded-md px-3 py-2 text-nav font-medium"><Link to="/">Home</Link></a>
+            <a class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-nav font-medium"><Link to="/">Home</Link></a>
             <a class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-nav font-medium"><Link to="/rooms">Rooms</Link></a>
           </div>
         </div>
