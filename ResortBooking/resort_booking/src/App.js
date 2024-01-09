@@ -5,6 +5,7 @@ import Home from './Components/Lending/Home';
 import Footer from './Components/Public/Footer';
 import Header from './Components/Public/Header';
 import Rooms from './Components/Lending/Rooms';
+import Login from './Components/Lending/Login';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Routes>
           <Route path="/" element = {<Home/>} />
           <Route path="/rooms" element={<Rooms/>} />
+          <Route path="/login" element={<Login/>} />
         </Routes>
         <Footer />
       </div>
