@@ -292,3 +292,27 @@ select,input,option{
     font-weight: bold;
     margin-top: 25%;
 }
+.block-text-admin{
+  text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.admin-login,.manager-login,.customer-login{
+  padding-left: 35%;
+  padding-top: 5%;
+}
+.admin-login-block{
+  padding-bottom: 30% !important;
+  width: 50%;
+}
+.center-form{
+  text-align: center;
+}
+.input-form{
+  border-width: 1px;
+  border-radius: 12px 
+}
+.label-form{
+  font-size: x-large;
+}
