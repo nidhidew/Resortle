@@ -21,11 +21,19 @@ const Login = () => {
     setHideBlocks(true); 
   };
 
+  const handleGoBack = () => {
+    setAdminBlock(false);
+    setManagerBlock(false);
+    setCustomerBlock(false);
+    setHideBlocks(false);
+  };
+
   return (
     <div className="bg-login">
       <div>
         {!hideBlocks && (
           <>
+          <div id="login-block">
             <div className="admin-block" onClick={handleClickAdmin}>
               <div className="w-64 h-64 bg-gray-200 border border-gray-400 rounded-md p-4">
                 <h1 className="block-text">Admin</h1>
@@ -41,6 +49,7 @@ const Login = () => {
                 <h1 className="block-text">Customer</h1>
               </div>
             </div>
+            </div>
           </>
         )}
 
@@ -51,12 +60,13 @@ const Login = () => {
 
               <div>
                 <form className="center-form">
-                  <div><label className="block text-sm font-medium leading-6 text-gray-900 label-form">Username:  </label>
-                  <input type="text" name="username" className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6 input-form"/></div><br></br>
-                  <div><label>Password:  </label>
-                  <input type="password" name="password" /></div><br></br>
-                  <button type="submit">Login</button><br></br>
-                  <h3>New User ? <a>Register</a></h3>
+                  <div><label className="block text-sm font-medium leading-6 text-gray-900 label-form user-label-login">Username:  </label>
+                  <input type="text" name="username" className="user-input-login block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6 input-form"/></div><br></br>
+                  <div><label className="block text-sm font-medium leading-6 text-gray-900 label-form password-label-login">Password:  </label>
+                  <input type="password" name="password" className="password-input-login block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6 input-form"/></div><br></br>
+                  <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded login-submit">Login</button><br></br><br></br>
+                  <h3>New User ? <a>Register</a></h3><br></br>
+                  <h3>Wrong Login ?{" "}<a href="#" onClick={handleGoBack}>Go Back</a></h3>
                 </form>
               </div>
             </div>
@@ -69,13 +79,14 @@ const Login = () => {
               <h1 className="block-text-admin">Hotel Manager Login</h1>
 
               <div>
-                <form>
-                  <div><label>Username:  </label>
-                  <input type="text" name="username" /></div><br></br>
-                  <div><label>Password:  </label>
-                  <input type="password" name="password" /></div><br></br>
-                  <button type="submit">Login</button>
-                  <h3>New User ? <a>Register</a></h3>
+                <form className="center-form">
+                  <div><label className="block text-sm font-medium leading-6 text-gray-900 label-form user-label-login">Username:  </label>
+                  <input type="text" name="username" className="user-input-login block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6 input-form"/></div><br></br>
+                  <div><label className="block text-sm font-medium leading-6 text-gray-900 label-form password-label-login">Password:  </label>
+                  <input type="password" name="password" className="password-input-login block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6 input-form"/></div><br></br>
+                  <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded login-submit">Login</button><br></br><br></br>
+                  <h3>New User ? <a>Register</a></h3><br></br>
+                  <h3>Wrong Login ?{" "}<a href="#" onClick={handleGoBack}>Go Back</a></h3>
                 </form>
               </div>
             </div>
@@ -88,13 +99,14 @@ const Login = () => {
               <h1 className="block-text-admin">Customer Login</h1>
 
               <div>
-                <form>
-                  <div><label>Username:  </label>
-                  <input type="text" name="username" /></div><br></br>
-                  <div><label>Password:  </label>
-                  <input type="password" name="password" /></div><br></br>
-                  <button type="submit">Login</button>
-                  <h3>New User ? <a>Register</a></h3>
+                <form className="center-form">
+                  <div><label className="block text-sm font-medium leading-6 text-gray-900 label-form user-label-login">Username:  </label>
+                  <input type="text" name="username" className="user-input-login block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6 input-form"/></div><br></br>
+                  <div><label className="block text-sm font-medium leading-6 text-gray-900 label-form password-label-login">Password:  </label>
+                  <input type="password" name="password" className="password-input-login block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6 input-form"/></div><br></br>
+                  <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded login-submit">Login</button><br></br><br></br>
+                  <h3>New User ? <a>Register</a></h3><br></br>
+                  <h3>Wrong Login ?{" "}<a href="#" onClick={handleGoBack}>Go Back</a></h3>
                 </form>
               </div>
             </div>
