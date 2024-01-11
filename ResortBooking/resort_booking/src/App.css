@@ -308,6 +308,7 @@ select,input,option{
 }
 .center-form{
   text-align: center;
+  padding-top: 5%;
 }
 .input-form{
   border-width: 1px;
@@ -315,4 +316,24 @@ select,input,option{
 }
 .label-form{
   font-size: x-large;
+}
+.user-input-login{
+  margin-left: 45%;
+  margin-top: -4%;
+}
+.user-label-login{
+  margin-right: 35%;
+}
+
+.password-label-login{
+  margin-right: 33%;
+}
+
+.password-input-login{
+  margin-top: -4%;
+  margin-left: 45%;
+}
+
+.login-submit{
+  background-color: #345180;
 }
