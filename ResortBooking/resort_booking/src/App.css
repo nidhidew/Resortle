@@ -306,6 +306,10 @@ select,input,option{
   padding-bottom: 30% !important;
   width: 50%;
 }
+.customer-reg-block{
+  padding-bottom: 38% !important;
+  width: 50%;
+}
 .center-form{
   text-align: center;
   padding-top: 5%;
@@ -336,4 +340,15 @@ select,input,option{
 
 .login-submit{
   background-color: #345180;
+}
+
+.bg-reg{
+  background-image: url("../src/Images/reg-wallpaper.jpg");
+  background-size: cover; 
+  width: auto;
+  height: 837px !important;
+}
+
+.phone-label-login{
+  margin-right:44%;
 }
