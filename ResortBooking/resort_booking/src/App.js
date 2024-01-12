@@ -6,6 +6,7 @@ import Footer from './Components/Public/Footer';
 import Header from './Components/Public/Header';
 import Rooms from './Components/Lending/Rooms';
 import Login from './Components/Lending/Login';
+import Registeration from './Components/Lending/Registeration';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/" element = {<Home/>} />
           <Route path="/rooms" element={<Rooms/>} />
           <Route path="/login" element={<Login/>} />
+          <Route path="/registeration" element={<Registeration/>} />
         </Routes>
         <Footer />
       </div>
