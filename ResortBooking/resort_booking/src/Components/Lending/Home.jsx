@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "../../App.css";
 import { MdLocalDining } from "react-icons/md";
 import { TbCampfire } from "react-icons/tb";
@@ -65,41 +66,49 @@ const Home = () => {
             <h1 className="img_text">Single Room</h1>
             <div className="img_6">
             </div>
+            <Link to="/single_room"><button className="rooms_block_btn text-white font-bold py-2 px-4 rounded">Feature</button></Link>
           </div>
           <div className="container_7 p-6 relative absolute inset-0 bg-white shadow-md transform">
           <h1 className="img_text">Double Room</h1>
             <div className="img_7">
             </div>
+            <Link to="/double_room"><button className="rooms_block_btn text-white font-bold py-2 px-4 rounded">Feature</button></Link>
           </div>
           <div className="container_8 p-6 relative absolute inset-0 bg-white shadow-md transform">
           <h1 className="img_text">Triple Room</h1>
             <div className="img_8">
             </div>
+            <Link to="/triple_room"><button className="rooms_block_btn text-white font-bold py-2 px-4 rounded">Feature</button></Link>
           </div>
           <div className="container_9 p-6 relative absolute inset-0 bg-white shadow-md transform">
           <h1 className="img_text">Deluxe Room</h1>
             <div className="img_9">
             </div>
+            <Link to="/deluxe_room"><button className="rooms_block_btn text-white font-bold py-2 px-4 rounded">Feature</button></Link>
           </div>
           <div className="container_10 p-6 relative absolute inset-0 bg-white shadow-md transform">
           <h1 className="img_text">Executive Room</h1>
             <div className="img_10">
             </div>
+            <Link to="/exec_room"><button className="rooms_block_btn text-white font-bold py-2 px-4 rounded">Feature</button></Link>
           </div>
           <div className="container_11 p-6 relative absolute inset-0 bg-white shadow-md transform">
           <h1 className="img_text">Suite Room</h1>
             <div className="img_11">
             </div>
+            <Link to="/suite_room"><button className="rooms_block_btn text-white font-bold py-2 px-4 rounded">Feature</button></Link>
           </div>
           <div className="container_12 p-6 relative absolute inset-0 bg-white shadow-md transform">
           <h1 className="img_text">Resorts Room</h1>
             <div className="img_12">
             </div>
+            <Link to="/resort_room"><button className="rooms_block_btn text-white font-bold py-2 px-4 rounded">Feature</button></Link>
           </div>
           <div className="container_13 p-6 relative absolute inset-0 bg-white shadow-md transform">
           <h1 className="img_text">Twin Room</h1>
             <div className="img_13">
             </div>
+            <Link to="/twin_room"><button className="rooms_block_btn text-white font-bold py-2 px-4 rounded">Feature</button></Link>
           </div>
         </div>
       </div>

@@ -84,6 +84,11 @@
     background-color: #442b3e;
 }
 
+.rooms_block_btn{
+  background-color: #442b3e;
+  margin-left: 30%;
+}
+
 .container_2{
     padding-top: 3rem;
   padding-left: 15rem;
@@ -109,56 +114,64 @@
     background-size: cover; 
     width: 18rem ;
     height: 10rem;
-    margin-bottom: 20%;
+    margin-bottom: 11%;
+    margin-top: 8%;
 }
 .img_7{
   background-image: url('./Images/doubleRoom.jpg');
     background-size: cover; 
     width: 18rem ;
     height: 10rem;
-    margin-bottom: 20%;
+    margin-bottom: 11%;
+    margin-top: 8%;
 }
 .img_8{
   background-image: url('./Images/tripleRoom.jpg');
     background-size: cover; 
     width: 18rem ;
     height: 10rem;
-    margin-bottom: 20%;
+    margin-bottom: 11%;
+    margin-top: 8%;
 }
 .img_9{
   background-image: url('./Images/deluxeRoom.jpg');
     background-size: cover; 
     width: 18rem ;
     height: 10rem;
-    margin-bottom: 20%;
+    margin-bottom: 11%;
+    margin-top: 8%;
 }
 .img_10{
   background-image: url('./Images/executiveRoom.jpg');
     background-size: cover; 
     width: 18rem ;
     height: 10rem;
-    margin-bottom: 20%;
+    margin-bottom: 11%;
+    margin-top: 8%;
 }
 .img_11{
   background-image: url('./Images/suiteRoom.jpg');
     background-size: cover; 
     width: 18rem ;
     height: 10rem;
-    margin-bottom: 20%;
+    margin-bottom: 11%;
+    margin-top: 8%;
 }
 .img_12{
   background-image: url('./Images/resortRoom.jpg');
     background-size: cover; 
     width: 18rem ;
     height: 10rem;
-    margin-bottom: 20%;
+    margin-bottom: 11%;
+    margin-top: 8%;
 }
 .img_13{
   background-image: url('./Images/twinRoom.jpg');
     background-size: cover; 
     width: 18rem ;
     height: 10rem;
-    margin-bottom: 20%;
+    margin-bottom: 11%;
+    margin-top: 8%;
 }
 .container_6{
   width: 20%;
@@ -172,8 +185,7 @@
     padding-left: 2.5%;
     background-color: #979497;
     margin-left: 28%;
-    margin-top: -16.8%;
-    padding-bottom: 1.5%;
+    margin-top: -18.5%;
     box-shadow: 0 5px 8px #000;
 }
 .container_8{
@@ -182,7 +194,8 @@
     padding-bottom: 1.5%;
     background-color: #979497;
     margin-left: 51%;
-    margin-top: -17%;
+    margin-top: -18.5%;
+    padding-bottom: 1.2%;
     box-shadow: 0 5px 8px #000;
 }
 .container_9{
@@ -191,7 +204,8 @@
     padding-bottom: 1.5%;
     background-color: #979497;
     margin-left: 74%;
-    margin-top: -17%;
+    margin-top: -18.5%;
+    padding-bottom: 1.2%;
     box-shadow: 0 5px 8px #000;
 }
 .container_10{
@@ -209,7 +223,7 @@
   background-color: #979497;
   margin-left: 28%;
   box-shadow: 0 5px 8px #000;
-  margin-top: -16.5%;
+  margin-top: -18.3%;
   padding-bottom: 1%;
 }
 .container_12{
@@ -218,7 +232,7 @@
   background-color: #979497;
   margin-left: 51%;
   box-shadow: 0 5px 8px #000;
-  margin-top: -16.5%;
+  margin-top: -18.3%;
   padding-bottom: 1%;
 }
 .container_13{
@@ -227,7 +241,7 @@
   background-color: #979497;
   margin-left: 74.5%;
   box-shadow: 0 5px 8px #000;
-  margin-top: -16.5%;
+  margin-top: -18.3%;
   padding-bottom: 1%;
 }
 .img_text{
@@ -351,4 +365,10 @@ select,input,option{
 
 .phone-label-login{
   margin-right:44%;
+}
+.bg-feature{
+  background-image: url("../src/Images/feature-room-bg.jpg");
+  background-size: cover; 
+  width: auto;
+  height: 837px !important;
 }
