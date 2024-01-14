@@ -4,7 +4,7 @@ const Suite_room = () => {
   return (
     <div>
       <div className='bg-feature'>
-        
+        <h1>Suite Room</h1>
         </div>
     </div>
   )
