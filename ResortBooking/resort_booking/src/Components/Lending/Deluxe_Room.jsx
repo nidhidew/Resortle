@@ -4,7 +4,7 @@ const Deluxe_Room = () => {
   return (
     <div>
       <div className='bg-feature'>
-        
+        <h1>Deluxe room</h1>
         </div>
     </div>
   )
