@@ -372,3 +372,9 @@ select,input,option{
   width: auto;
   height: 837px !important;
 }
+.bg_section_1_single{
+  background-image: url('./Images/singleRoom.jpg');
+  background-size: cover; 
+  width: auto;
+  height: 883px !important;
+}
