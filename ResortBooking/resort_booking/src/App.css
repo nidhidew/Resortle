@@ -378,3 +378,34 @@ select,input,option{
   width: auto;
   height: 883px !important;
 }
+.single-heading{
+  font-size: xx-large;
+  border-bottom: black 2px solid;
+  width: 50%;
+}
+.single-details{
+  padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 55%;
+}
+.single-key{
+  padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 55%;
+}
+.single-services{
+  padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 55%;
+}
+.single-info{
+  padding-top: 2%;
+  margin-left: 80%;
+  position: absolute;
+}
+.p-single{
+  font-size: larger;
+}
+.h3-single{
+  font-size: x-large;
+}
