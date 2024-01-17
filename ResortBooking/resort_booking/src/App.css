@@ -409,3 +409,9 @@ select,input,option{
 .h3-single{
   font-size: x-large;
 }
+.bg_section_1_double{
+  background-image: url('./Images/doubleRoom.jpg');
+  background-size: cover; 
+  width: auto;
+  height: 883px !important;
+}
