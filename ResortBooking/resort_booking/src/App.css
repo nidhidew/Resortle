@@ -415,3 +415,9 @@ select,input,option{
   width: auto;
   height: 883px !important;
 }
+.bg_section_1_deluxe{
+  background-image: url('./Images/deluxeRoom.jpg');
+  background-size: cover; 
+  width: auto;
+  height: 883px !important;
+}
