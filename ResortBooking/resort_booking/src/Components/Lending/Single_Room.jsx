@@ -18,7 +18,7 @@ const Single_Room = () => {
           <h1 className="single-heading">Info</h1>
           <h3 className="p-single">Price : 800/-</h3>
           <h3 className="p-single">Size : 500 SQFT</h3>
-          <h3 className="p-single">Max Capacity : 1 People</h3>
+          <h3 className="p-single">Max Capacity : 1 Person</h3>
           <h3 className="p-single">Pets Allowed</h3>
           <h3 className="p-single">Free Breakfast Included</h3>
         </div>
