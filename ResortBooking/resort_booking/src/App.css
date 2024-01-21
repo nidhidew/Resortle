@@ -421,3 +421,27 @@ select,input,option{
   width: auto;
   height: 883px !important;
 }
+.bg_section_1_suite{
+  background-image: url('./Images/suiteRoom.jpg');
+  background-size: cover; 
+  width: auto;
+  height: 883px !important;
+}
+.bg_section_1_triple{
+  background-image: url('./Images/tripleRoom.jpg');
+  background-size: cover; 
+  width: auto;
+  height: 883px !important;
+}
+.bg_section_1_twin{
+  background-image: url('./Images/twinRoom.jpg');
+  background-size: cover; 
+  width: auto;
+  height: 883px !important;
+}
+.bg_section_1_exec{
+  background-image: url('./Images/executiveRoom.jpg');
+  background-size: cover; 
+  width: auto;
+  height: 883px !important;
+}
