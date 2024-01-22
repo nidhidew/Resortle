@@ -96,17 +96,17 @@
 }
 .container_3{
   padding-left: 40rem;
-  margin-top: -9rem;
+  margin-top: -10rem;
   margin-right: 70rem;
 }
 .container_4{
   padding-left: 65rem;
-  margin-top: -10.5rem;
+  margin-top: -11.5rem;
   margin-right: 43rem;
 }
 .container_5{
   padding-left: 92rem;
-  margin-top: -10rem;
+  margin-top: -11rem;
   margin-right: 5rem;
 }
 .img_6{
@@ -444,4 +444,8 @@ select,input,option{
   background-size: cover; 
   width: auto;
   height: 883px !important;
+}
+.icon-home-services{
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
