@@ -37,22 +37,22 @@ const Home = () => {
           <p className="underline_container_2"></p>
           <div className="container_2">
           <h3 className="c2_text">Free Breakfast</h3>
-          <MdLocalDining className="homeicon"/>
+          <div className="icon-home-services"><MdLocalDining className="homeicon"/></div>
           <p>Start Your Day on Us: Enjoy Complimentary Breakfast at Our Hotel!</p>
         </div>
         <div className="container_3">
           <h3 className="c2_text">BonFire</h3>
-          <TbCampfire className="homeicon"/>
+          <div className="icon-home-services"><TbCampfire className="homeicon"/></div>
           <p>Where Memories Ignite: Gather 'Round Our Bonfire at the Hotel!</p>
         </div>
         <div className="container_4">
           <h3 className="c2_text">Free Shuttle</h3>
-          <FaBus className="homeicon"/>
+          <div className="icon-home-services"><FaBus className="homeicon"/></div>
           <p>Ride Easy, Stay Hassle-Free: Enjoy Our Complimentary Shuttle Service!</p>
         </div>
         <div className="container_5">
           <h3 className="c2_text">Free Cocktails</h3>
-          <FaCocktail className="homeicon"/>
+          <div className="icon-home-services"><FaCocktail className="homeicon"/></div>
           <p>Indulge in Luxury: Cocktails on the House!</p>
         </div>
         </div>
